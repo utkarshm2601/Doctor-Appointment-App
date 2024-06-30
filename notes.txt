@@ -1,0 +1,4 @@
+bcryptjs -> This package is used for hashing the password for protecting our application.
+
+//to run server and react application on same port we used concurrently package.To do this firstly we have to modify proxy in package.json file inside client folder
+and add server port i.e "proxy" : "http//localhost:8080" ,here 8080 is server port .Proxy set krne ke baad hum seedha end point likh skte hain baar baar hume "http//localhost:8080" likhne ki zarrorat nahi padegi 
