@@ -2,3 +2,8 @@ bcryptjs -> This package is used for hashing the password for protecting our app
 
 //to run server and react application on same port we used concurrently package.To do this firstly we have to modify proxy in package.json file inside client folder
 and add server port i.e "proxy" : "http//localhost:8080" ,here 8080 is server port .Proxy set krne ke baad hum seedha end point likh skte hain baar baar hume "http//localhost:8080" likhne ki zarrorat nahi padegi 
+
+//What is redux toolkit?
+=>It is a state management solution.Pehle kya hota tha hum react me props ki madad se state ko ek component se dusre component me paas karate the lekin redux ki madad se hum global state create kr skte hain aur use kisi bhi component me paas kra skte hain.
+
+// read about slice of redux from chatgpt
