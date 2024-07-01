@@ -7,3 +7,5 @@ and add server port i.e "proxy" : "http//localhost:8080" ,here 8080 is server po
 =>It is a state management solution.Pehle kya hota tha hum react me props ki madad se state ko ek component se dusre component me paas karate the lekin redux ki madad se hum global state create kr skte hain aur use kisi bhi component me paas kra skte hain.
 
 // read about slice of redux from chatgpt
+
+//axios ki get request me hum token nahi bhej skte. If you want to send token in the axios request then that method of calling axios should be post.
