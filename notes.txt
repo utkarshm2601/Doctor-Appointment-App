@@ -9,3 +9,6 @@ and add server port i.e "proxy" : "http//localhost:8080" ,here 8080 is server po
 // read about slice of redux from chatgpt
 
 //axios ki get request me hum token nahi bhej skte. If you want to send token in the axios request then that method of calling axios should be post.
+
+//jb user doctor ke appointment ke liye date wagairah select krega toh us date aur time pe doctor available rhega ya nahi isko validate krne ke liye hume comparison krna pdega so that hum jaan paayen ki doctor user ke specified time pe available hai ya nahi.
+Is comparison ko krne ke liye hume date aur time ko ISO format me change krna padega.Aur iske liye hume moment package install krna pada. Is change ko humne bookAppointment Controller me likha hai.Aur comparison ka logic humne bookingAvailability Controller me likha hai.
